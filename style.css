@@ -56,6 +56,22 @@ body{
     padding: 2rem 4.5rem;
 }
 
+.hamburger{
+    display: none;
+    width: 9%;
+    padding: .5rem;
+    /* margin: auto; */
+}
+
+.hamburger div{
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+}
+.hamburger_mid{
+    margin: .5rem auto;
+}
+
 .navbar_option{
     /* background-color: lawngreen; */
     width: 50%;
@@ -123,6 +139,7 @@ h4{
 .secondary_span{
     display: block;
 }
+
 
 .text_heading{
     /* font-weight: 500; */
@@ -624,6 +641,10 @@ h4{
     display: block;
 }
 
+.message{
+    padding: 1rem 1.5rem 7rem;
+}
+
 .checkbox_link{
     color: var(--pink);
     text-decoration: none;
@@ -648,4 +669,324 @@ h4{
     margin: 4rem 0;
     display: inline-block;
     font-size: 1rem;
+}
+
+
+/* styling of footer */
+.footer{
+    background-image: var(--bgblack);
+    padding: 3rem 5rem;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.footer_top-heading{
+    text-transform: capitalize;
+}
+
+.footer_top-sub{
+    margin: 1rem 0 0;
+}
+
+.footer_top-right{
+    margin: .5rem 0 0;
+    width: 32%;
+}
+
+.footer_bubbles{
+    width: 100%;
+    object-fit: contain;
+}
+
+.footer_bottom{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 4.5rem 0 2rem;
+}
+
+.footer_list{
+ list-style: none;
+ /* display: block; */
+}
+
+.footer_item{
+   display: flex;
+   /* background-color: rebeccapurple; */
+   align-items: center;
+   padding: 0 0 .8rem;
+}
+
+.footer_item-text{
+    margin: 0 0 0 .5rem;
+}
+.footer_item-imagebox{
+    width: 1.2rem;
+    height: 1.2rem;
+    /* background-color: green; */
+}
+
+.footer_item-image{
+    width: 100%;
+    object-fit: contain;
+}
+
+.footer_item-box{
+
+}
+
+.footer_list-box{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 1.2rem 0 0
+}
+
+.footer_list-left,
+.footer_list-right{
+    width: 40%;
+    /* background-color: rosybrown; */
+}
+
+.footer_list-right{
+    
+}
+
+.footer_colored-text{
+    padding: 1.5rem 0 0;
+    text-align: left;
+}
+
+.pink_color{
+    color: var(--pink);
+}
+
+.footer_logobox{
+
+}
+
+.footer_logo{
+
+}
+
+.footer_social-box{
+    text-align: center;
+}
+
+.footer_social{
+    margin: .8rem auto;
+    width: 20%;
+    display: flex;
+    /* align-content: center; */
+    justify-content: space-between;
+    /* background-color: royalblue; */
+}
+
+.footer_social-link{
+    /* display: block; */
+}
+
+.footer_company{
+    text-align: center;
+    /* background-color: royalblue; */
+}
+
+
+@media screen and (max-width: 600px) {
+    html{
+        font-size: 9px;
+    }
+
+    .navbar{
+        position: relative;
+        align-items: center;
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar_option{
+        position: absolute;
+        width: 100%;
+        background-image: var(--bgblack);
+        left: -100%;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05); 
+    }
+
+    .nav_list{
+        flex-direction: column;
+        /* width: 100%; */
+        margin: 1rem 0 ;
+        /* text-align: center; */
+    }
+
+    .nav_links{
+        margin: 1rem 0;
+        font-size: 1.5rem;
+        display: inline-block;
+    }
+
+    .logo_box{
+        width: 25%;
+    }
+
+    .header_main{
+        margin: 0 auto 2rem;
+        width: 90%;
+    }
+
+        /* styling for text */
+    .primary_heading{
+        font-size: 1.8rem;
+        /* text-transform: uppercase; */
+    }
+
+    .secondary_heading{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    /* .tertiary_heading{
+        font-size: 1.5rem;
+    }
+
+    #left{
+        text-align: left;
+    }
+
+    #top{
+        margin: 1.8rem 0;
+    }
+
+    .secondary_span{
+        display: block;
+    }  */
+
+        /* header cards */
+    .header_main-cards{
+        /* display: flex;
+        justify-content: space-between; */
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* width: 80%; */
+        margin: 2rem auto 0;
+
+    }
+
+    .attract_card,
+    .grow_card,
+    .retain_card{
+        /* text-align: center;
+        background-color: rgba(255, 250, 250, 0.03); */
+        /* border-radius: 10px; */
+        width: 70%;
+        margin: 2rem auto;
+        /* padding: 24px; */
+    }
+
+    .attract_card-iconbox,
+    .grow_card-iconbox,
+    .retain_card-iconbox{
+        /* border-radius: 50%; */
+        /* padding: 1.1rem; */
+        width: 50px;
+        height: 50px;
+        /* margin: auto; */
+    }
+/*     
+    .attract_heading,
+    .grow_heading,
+    .retain_heading{
+        font-size: 1.5rem;
+        margin: 1.2rem auto;
+    } */
+
+        /* optimize */
+
+    /* .optimize{
+        text-align: center;
+        padding: 4rem 0;
+        color: var(--black);
+        background-image: var(--bgwhite);
+    } */
+
+    .optimize_paragraph{
+        width: 70%;
+        margin: .8rem auto 0;
+    }
+
+    .optimize_box{
+        background-color: lightpink;
+        /* position: relative; */
+        margin: 2.5rem 0 0;
+        padding: 16rem 0 22rem ;
+    }
+
+    .map{
+        /* height: 600px;
+        width: 100%; */
+        /* background-color: lightslategray; */
+    }
+
+    /* .map_image{
+        width: 100%;
+        object-fit: contain;
+    } */
+
+    /* .touchpoint_text,
+    .development_text,
+    .onboard_text,
+    .perform_text{
+        text-align: left;
+        position: absolute;
+    } */
+
+    .touchpoint_text{
+        top: 1rem;
+        left: 2rem;
+    }
+
+    .development_text{
+        top: 7.5rem;
+        right: 4rem;
+    }
+
+    .onboard_text{
+        left: 14rem;
+    }
+
+    .perform_text{
+        bottom: 3rem;
+        right: 3rem;
+    }
+
+    .touchpoint_list,
+    .development_list,
+    .onboard_list,
+    .perform_list{
+        list-style: none;
+    }   
+
+    .touchpoint_item,
+    .development_item,
+    .onboard_item,
+    .perform_item{
+        padding: .5rem 0 0;
+    }
+
+    .touchpoint_head,
+    .development_head,
+    .onboard_head,
+    .perform_head{
+        text-transform: capitalize;
+    }
+
+
 }
