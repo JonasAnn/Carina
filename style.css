@@ -796,7 +796,8 @@ h4{
 }
 
 .footer_logo{
-
+    width: 100%;
+    object-fit: contain;
 }
 
 .footer_social-box{
@@ -1081,116 +1082,142 @@ h4{
     }
 
         /* styling for thinking */
-
-    /* .thinking{
-        background-image: var(--bgblack);
-        padding: 3rem 0;
-        text-align: center;
-    } */
-
     .thinking_list{
         margin: 3rem auto 2rem;
-        /* text-align: left; */
         max-width: 70%;
     }
     .think_list{
         display: inline-block;
-        /* list-style: decimal; */
     }
 
-    .think_item{
-        padding: 0 0 1.5rem;
-    }
-
-    .think_btn{
-        background-color: var(--white);
-        color: var(--black);
-        text-decoration: none;
-        padding: 1rem 1.8rem;
-        border-radius: 8px;
-        margin: 2rem 0;
-        display: inline-block;
-    }
 
         /* styling fro contact form */
-
-    /* .contact_section{
-        padding: 3rem 0;
-        color: var(--black);
-        background-image: var(--bgwhite);
-    } */
-
-    /* .contact_section-p{
-        text-align: center;
-    } */
-
     .contact_form-box{
         max-width: 80%;
-        /* margin: 0 auto; */
     }
 
     .form_top{
-        /* display: flex;
-        justify-content: space-between; */
         margin: 2rem 0 -1rem;
     }
 
-
     .input{
         padding: .7rem 1.2rem .9rem;
-        /* background: var(--white); */
         border: 1px solid rgba(22, 22, 22, 0.5);
-        /* border-radius: 3px; */
-        /* display: block;
-        margin: 1rem 0;
-        width: 100%; */
     }
 
     .input::placeholder{
-        /* font-family: 'Poppins', sans-serif; */
         font-size: 9px;
-        /* color: var(--black); */
-    }
-
-    /* #email, #message{
-        width: 100%;
-    }
-
-    .input_name,
-    .input_company{
-        width: 48%;
-        display: block;
     }
 
     .message{
         padding: 1rem 1.5rem 7rem;
     }
 
-    .checkbox_link{
-        color: var(--pink);
-        text-decoration: none;
+        /* styling of footer */
+    /* .footer{
+        background-image: var(--bgblack);
+        padding: 3rem 5rem;
+    } */
+    .footer_top{
+        flex-direction: column-reverse;
+        /* display: flex;
+        justify-content: space-between; */
+        /* background-color: red; */
+    }
+/* 
+    .footer_top-heading{
+        text-transform: capitalize;
+    } */
+
+    .footer_top-sub{
+        margin: 1rem 0 0;
     }
 
-    .check_text-box{
+    .footer_top-right{
+        margin: .5rem 0 2rem;
+        width: 80%;
+    }
+
+    .footer_bottom{
+        /* background-color: red; */
         display: flex;
+        justify-content: space-between;
+        margin: 4.5rem 0 2rem;
     }
 
-    .check_text{
+    .footer_list{
+    list-style: none;
+    /* display: block; */
+    }
+
+    .footer_item{
+    display: flex;
+    /* background-color: rebeccapurple; */
+    align-items: center;
+    padding: 0 0 .8rem;
+    }
+
+    .footer_item-text{
+        margin: 0 0 0 .5rem;
+    }
+    .footer_item-imagebox{
+        width: 1.2rem;
+        height: 1.2rem;
+        /* background-color: green; */
+    }
+
+    .footer_item-image{
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .footer_item-box{
+
+    }
+
+    .footer_list-box{
+        display: flex;
+        /* justify-content: space-between; */
+        padding: 1.2rem 0 0
+    }
+
+    .footer_list-left,
+    .footer_list-right{
+        width: 40%;
+        /* background-color: rosybrown; */
+    }
+
+    .footer_list-right{
+        
+    }
+
+    .footer_colored-text{
+        padding: 1.5rem 0 0;
         text-align: left;
-        padding: 0 0 0 1.5rem;
+    }
+
+    .pink_color{
+        color: var(--pink);
+    }
+
+    .footer_logobox{
+        width: 25%;
+        /* background-color: greenyellow; */
+    }
+
+    /* .footer_social-box{
+        text-align: center;
     } */
 
-    /* .form_btn{
-        background-color: var(--black);
-        color: var(--white);
-        text-decoration: none;
-        padding: 1rem 1.8rem;
-        border-radius: 8px;
-        border: none;
-        margin: 4rem 0;
-        display: inline-block;
-        font-size: 1rem;
-    } */
+
+    .footer_social-link{
+        display: block;
+    }
+
+    .footer_company{
+        text-align: center;
+        /* background-color: royalblue; */
+    }
 
         
 }
