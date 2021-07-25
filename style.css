@@ -141,6 +141,7 @@ h4{
 }
 
 
+
 .text_heading{
     /* font-weight: 500; */
 }
@@ -282,6 +283,40 @@ h4{
 }
 
 /* Styling for employee */
+.th{
+        /* background-color: green; */
+} 
+.cw,
+.th{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+}
+.ec{
+    width: 18%;
+    display: flex;
+    /* background-color: rgba(255, 204, 0, 0.5); */
+    justify-content: center;
+}
+
+.cw_card,
+.th_card,
+.employer_card{
+    padding: 0.7rem 1.5rem .5rem;
+    background: rgba(255, 250, 250, 0.03);
+    border-top: 2px solid var(--white);
+    border-left: 2px solid var(--white);
+    border-right: 2px solid var(--white);
+    border-bottom: 4px solid var(--pink);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cw_card,
+.th_card{
+    width: 45%;
+}
 
 .employer{
     background-image: var(--bgblack);
@@ -295,20 +330,12 @@ h4{
     justify-content: space-between;
 }
 
-.employer_card,
-.human_card{
-    background: rgba(255, 250, 250, 0.03);
-    border-top: 2px solid var(--white);
-    border-left: 2px solid var(--white);
-    border-right: 2px solid var(--white);
-    border-bottom: 4px solid var(--pink);
-    border-radius: 5px;
-    width: 18%;
-    text-align: center;
-}
 .employer_card{
-    padding: 0.7rem 1.5rem 1.5rem;
+    width: 90%;
 }
+/* .employer_card{
+    padding: 0.7rem 1.5rem 1.5rem;
+} */
 
 .human_card{
     padding: 0.7rem .5rem 1.5rem;
@@ -320,6 +347,7 @@ h4{
     margin: 0 auto;
     background-image: url("./img/Ellipse\ 45.png");
     padding: 19px 21px;
+    background-size: contain;
 }
 
 .employer_iconbox-linear{
@@ -332,7 +360,7 @@ h4{
 .ex_heading,
 .tech_heading,
 .human_heading{
-    margin: 1.2rem auto;
+    margin: 1rem auto;
 }
 
 .ex_heading{
@@ -837,7 +865,7 @@ h4{
     }
 
     .header_main{
-        margin: 0 auto 2rem;
+        margin: 2rem auto 2rem;
         width: 90%;
     }
 
@@ -910,12 +938,9 @@ h4{
 
         /* optimize */
 
-    /* .optimize{
-        text-align: center;
-        padding: 4rem 0;
-        color: var(--black);
-        background-image: var(--bgwhite);
-    } */
+    .optimize{
+        padding: 4rem 0 0;
+    }
 
     .optimize_paragraph{
         width: 70%;
@@ -923,15 +948,13 @@ h4{
     }
 
     .optimize_box{
-        background-color: lightpink;
-        /* position: relative; */
         margin: 2.5rem 0 0;
         padding: 16rem 0 22rem ;
     }
 
     .map{
-        /* height: 600px;
-        width: 100%; */
+        height: auto;
+
         /* background-color: lightslategray; */
     }
 
@@ -959,34 +982,84 @@ h4{
     }
 
     .onboard_text{
-        left: 14rem;
+        left: 10rem;
     }
 
     .perform_text{
-        bottom: 3rem;
-        right: 3rem;
+        bottom: 8rem;
+        /* right: 3rem; */
     }
 
-    .touchpoint_list,
-    .development_list,
-    .onboard_list,
-    .perform_list{
-        list-style: none;
-    }   
-
-    .touchpoint_item,
-    .development_item,
-    .onboard_item,
-    .perform_item{
-        padding: .5rem 0 0;
+        /* Styling for employee */
+    .th,
+    .cw{
+    width: 100%;
     }
-
-    .touchpoint_head,
-    .development_head,
-    .onboard_head,
-    .perform_head{
-        text-transform: capitalize;
+    .ec{
+    width: 50%;
+    margin: 2rem auto;
     }
 
 
+    .employer_box{
+    padding: 2rem 0 0;
+    flex-direction: column;
+    }
+
+    .employer_iconbox{
+    width: 50px;
+    height: 50px;
+    padding: 11px 13px;
+    }
+
+        /* styling in approach */
+    /* .approach{
+        background-image: var(--bgwhite);
+        padding: 3rem 3rem;
+        color: var(--black);
+        text-align: center;
+    }
+
+    .approach_box{
+        display: flex;
+        justify-content: space-between;
+        margin: 5rem 0 0;
+    } */
+
+    .approach_box-deliver{
+
+    }
+    .approach_box-analyze{
+        margin: -7px 0 0;
+    }
+    .approach_box-priotize{
+        /* width: 28%; */
+        /* background-color: chocolate; */
+    }
+    .approach_heading{
+        /* text-transform: capitalize;
+        padding: 1.1rem 0 0.3rem; */
+    }
+
+    .approach_p{
+        width: 100%;
+        /* margin: 0 auto; */
+    }
+
+    .approach_box-iconbox{
+        /* background-color: greenyellow; */
+        width: 80%;
+        /* margin: 0 auto; */
+    }
+
+    /* .approach_btn{
+        background-color: var(--black);
+        color: var(--white);
+        text-decoration: none;
+        padding: 1rem 1.8rem;
+        border-radius: 8px;
+        margin: 4rem 0;
+        display: inline-block;
+    } */
+    
 }
