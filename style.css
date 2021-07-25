@@ -1012,27 +1012,55 @@ h4{
     padding: 11px 13px;
     }
 
-        /* styling in approach */
-    /* .approach{
-        background-image: var(--bgwhite);
-        padding: 3rem 3rem;
-        color: var(--black);
-        text-align: center;
+    .th_card,
+    .employer_card,
+    .cw_card{
+        border-top: 1px solid var(--white);
+        border-left: 1px solid var(--white);
+        border-right: 1px solid var(--white);
+        border-bottom: 2px solid var(--pink);
     }
 
-    .approach_box{
-        display: flex;
-        justify-content: space-between;
-        margin: 5rem 0 0;
-    } */
+    /* persona stlying */
+    .persona{
+        /* background-image: var(--bgwhite); */
+        /* padding: 2rem 2.5rem; */
+        /* color: var(--black); */
+    }
+    
+    .persona_box{
+        /* display: flex;
+        justify-content: space-between; */
+        margin: 2rem 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .talent,
+    .starter,
+    .employee{
+        width: 70%;
+        /* padding: 2.1rem 2.4rem 3.5rem; */
+    }
 
-    .approach_box-deliver{
+    .starter{
+        margin: 2rem 0;
+    }
+    
 
+        /* styling in approach */
+    .approach_box-deliver h2{
+        color: var(--yellow);
     }
     .approach_box-analyze{
         margin: -7px 0 0;
     }
-    .approach_box-priotize{
+
+    .approach_box-analyze h2{
+        color: var(--pink);
+    }
+    .approach_box-priotize h2{
+        color: var(--green);
         /* width: 28%; */
         /* background-color: chocolate; */
     }
@@ -1052,14 +1080,117 @@ h4{
         /* margin: 0 auto; */
     }
 
-    /* .approach_btn{
+        /* styling for thinking */
+
+    /* .thinking{
+        background-image: var(--bgblack);
+        padding: 3rem 0;
+        text-align: center;
+    } */
+
+    .thinking_list{
+        margin: 3rem auto 2rem;
+        /* text-align: left; */
+        max-width: 70%;
+    }
+    .think_list{
+        display: inline-block;
+        /* list-style: decimal; */
+    }
+
+    .think_item{
+        padding: 0 0 1.5rem;
+    }
+
+    .think_btn{
+        background-color: var(--white);
+        color: var(--black);
+        text-decoration: none;
+        padding: 1rem 1.8rem;
+        border-radius: 8px;
+        margin: 2rem 0;
+        display: inline-block;
+    }
+
+        /* styling fro contact form */
+
+    /* .contact_section{
+        padding: 3rem 0;
+        color: var(--black);
+        background-image: var(--bgwhite);
+    } */
+
+    /* .contact_section-p{
+        text-align: center;
+    } */
+
+    .contact_form-box{
+        max-width: 80%;
+        /* margin: 0 auto; */
+    }
+
+    .form_top{
+        /* display: flex;
+        justify-content: space-between; */
+        margin: 2rem 0 -1rem;
+    }
+
+
+    .input{
+        padding: .7rem 1.2rem .9rem;
+        /* background: var(--white); */
+        border: 1px solid rgba(22, 22, 22, 0.5);
+        /* border-radius: 3px; */
+        /* display: block;
+        margin: 1rem 0;
+        width: 100%; */
+    }
+
+    .input::placeholder{
+        /* font-family: 'Poppins', sans-serif; */
+        font-size: 9px;
+        /* color: var(--black); */
+    }
+
+    /* #email, #message{
+        width: 100%;
+    }
+
+    .input_name,
+    .input_company{
+        width: 48%;
+        display: block;
+    }
+
+    .message{
+        padding: 1rem 1.5rem 7rem;
+    }
+
+    .checkbox_link{
+        color: var(--pink);
+        text-decoration: none;
+    }
+
+    .check_text-box{
+        display: flex;
+    }
+
+    .check_text{
+        text-align: left;
+        padding: 0 0 0 1.5rem;
+    } */
+
+    /* .form_btn{
         background-color: var(--black);
         color: var(--white);
         text-decoration: none;
         padding: 1rem 1.8rem;
         border-radius: 8px;
+        border: none;
         margin: 4rem 0;
         display: inline-block;
+        font-size: 1rem;
     } */
-    
+
+        
 }
