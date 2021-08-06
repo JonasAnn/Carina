@@ -1,0 +1,241 @@
+.journey{
+    padding: 4rem 0;
+    color: var(--black);
+    background-image: var(--bgwhite);
+}
+.journey_map{
+    width: 80%;
+    margin: 3.5rem auto;
+}
+
+.journey_map-image{
+    width: 100%;
+    object-fit: contain;
+}
+
+.drivers{
+    padding: 4rem 0;
+    /* color: var(--black); */
+    background-image: var(--bgblack);
+}
+
+.driver_box{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 3.5rem auto;
+    /* background-color: red; */
+}
+
+.driver_card,
+.positive_card{
+    background: rgba(255, 250, 250, 0.03);
+    border-top: 2px solid var(--white);
+    border-left: 2px solid var(--white);
+    border-right: 2px solid var(--white);
+    border-bottom: 4px solid var(--pink);
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-image: var(--bgblack);
+}
+
+.driver_card{
+    width: 30%;
+    padding: 0.7rem .6rem .5rem;
+    /* position: relative;
+    z-index: 1;
+    background-image: var(--bgblack); */
+}
+
+.positive_card{
+    width: 70%;
+    margin: 0 auto;
+    padding: 5rem .6rem 5rem;
+}
+
+.driver_box-left{
+    width: 70%;
+    /* background-color: grey; */
+}
+
+.driver_box-right{
+   /* background-color: grey; */
+   width: 30%;
+   display: flex;
+   align-items: center;
+}
+
+.driver_box-top,
+.driver_box-bottom{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.driver_box-line{
+    background-color: var(--white);
+    width: 120%;
+    position: absolute;
+    height: 3px;
+    top: 47%;
+    z-index: 0;
+
+}
+
+.driver_box-bottom{
+    margin: 4rem 0 0;
+}
+
+.driver_iconbox{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background-image: url("./img/Ellipse\ 45.png");
+    padding: 19px 21px;
+    background-size: contain;
+}
+    
+.driver_iconbox-linear{
+    width: 100%;
+    object-fit: contain;
+}
+
+.technology_heading,
+.clarity_heading,
+.attractiveness_heading,
+.fairness_heading,
+.personalization_heading,
+.timeliness_heading,
+.positive_heading{
+    margin: 1rem auto;
+}
+
+
+/* styling for build */
+
+.build{
+    background-image: var(--bgwhite);
+    color: var(--black);
+    padding: 4rem 0;
+}
+
+.build_box-top{
+    display: flex;
+    width: 90%;
+    margin: 3.5rem auto;
+    justify-content: space-between;
+}
+.build_box-bottom{
+    display: flex;
+    width: 90%;
+    margin: 3.5rem auto;
+}
+
+.build_box-one,
+.build_box-two,
+.build_box-three,
+.build_box-four,
+.build_box-five{
+    text-align: left;
+    width: 30%;
+    /* background-color: honeydew; */
+}
+
+.build_box-five{
+    margin: 0 0 0 5%;
+}
+
+.build_box-iconbox{
+    width: 25%;
+}
+
+.build_box-icon{
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+    .journey {
+        padding: 2rem 0 .5rem
+    }
+
+    .driver_box{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .driver_box-left{
+        width: 100%;
+    }
+
+    .driver_iconbox{
+        width: 50px;
+        height: 50px;
+        padding: 10px 12px;
+    }
+
+    .driver_box-line{
+        display: none;
+    }
+
+    .driver_card,
+    .positive_card{
+    background: rgba(255, 250, 250, 0.03);
+    border-top: 1px solid var(--white);
+    border-left: 1px solid var(--white);
+    border-right: 1px solid var(--white);
+    border-bottom: 2px solid var(--pink);
+    background-image: none;
+    }
+
+    .driver_box-right{
+        width: 90%;
+        margin: auto;
+    }
+
+    .positive_card {
+        width: 65%;
+        margin: 4rem auto 0;
+        padding: 3rem 2rem 3rem
+    }
+    .build h2{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .build_box-top{
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .build_box-bottom{
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    
+    .build_box-one,
+    .build_box-two,
+    .build_box-three,
+    .build_box-four,
+    .build_box-five{
+        margin: 3rem auto 0;
+        width: 80%;
+    }
+    
+    .build_box-five{
+        margin: 3rem auto 0;
+    }
+    
+    .build_box-iconbox{
+        width: 12%;
+        margin-bottom: .6rem;
+    }
+} 
+
+@media screen and (max-width: 340px){
+    .build_box-iconbox{
+        width: 18%;
+        margin-bottom: .6rem;
+    }
+}
