@@ -144,6 +144,15 @@ h4{
     color: var(--yellow);
 }
 
+#green{
+    color: var(--green);
+}
+
+#pink{
+    color: var(--pink);
+}
+
+
 
 
 .text_heading{

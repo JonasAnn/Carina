@@ -1,0 +1,290 @@
+/* general */
+section{
+    padding: 4rem 3rem;
+}
+
+#header_grow-cards{
+    width: 50%;
+}
+
+#change_grow-card,
+#change_retain-card{
+    width: 45%;
+}
+
+.ex{
+    background-image: var(--bgwhite);
+    color: var(--black);
+}
+.ex_box{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ex_one{
+    width: 58%;
+}
+
+.ex_two{
+    width: 35%;
+}
+
+.ex_text{
+    width: 90%;
+}
+
+.ex_header{
+    margin: 0 0 1rem 0;
+}
+
+.ex_chart-image{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* styling for is section */
+.is{
+    background-image: var(--bgblack);
+}
+
+.is_p{
+    width: 65%;
+    margin: auto;
+}
+
+.is_text{
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.is_text-top{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    margin: 2rem 0 0;
+}
+
+.is_text-top1,
+.is_text-top2{
+    display: flex;
+}
+
+.is_text-toplink{
+    color: inherit;
+}
+
+.is_texttop-p1{
+    margin: 0 .6rem 0 0;
+}
+
+.is_texttop-p2{
+    margin: 0 0 0 .6rem;
+}
+
+.is_arrow-box{
+    /* background-color: green; */
+    /* width: 20%; */
+}
+.is_arrow{
+    width: 100%;
+    object-fit: contain;
+}
+.is_text-bottom{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 0 auto;
+    width: 60%;
+}
+
+.is_text-bottomp{
+    margin: 0 0 0.4rem .6rem;
+}
+
+/* styling for roi */
+.roi{
+    background-image: var(--bgwhite);
+    color: var(--black);
+}
+
+.roi_box{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 4rem auto 0;
+}
+
+.roi_box-iconbox{
+    width: 15%;
+}
+
+.roi_box-icon{
+    width: 100%;
+    object-fit: contain;
+}
+
+.roi_box-one,
+.roi_box-two,
+.roi_box-three{
+    width: 30%;
+}
+
+/* stlying for leads */
+.leads{
+    background-image: var(--bgblack);
+}
+
+.leads_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leads_chartbox{
+    width: 35%;
+}
+
+.leads_chart{
+    width: 100%;
+    object-fit: contain;
+}
+
+.leads_list-box{
+    width: 55%;
+    /* background-color: chocolate; */
+}
+
+.leads_list-holder{
+    margin: 1.5rem 0 0;
+}
+
+.leads_list{
+    list-style: none;
+}
+
+.leads_item{
+    display: flex;
+    align-items: center;
+    margin: 0 0 1rem 0;
+}
+
+.leads_item-imagebox{
+    margin: 0 .8rem 0 0;
+    display: flex;
+}
+
+
+/* styling for bulb */
+.bulb{
+    color: var(--black);
+    background-image: var(--bgwhite);
+}
+
+.bulb_iconbox{
+    width: 8%;
+    margin: 1.5rem auto;
+}
+
+.bulb_icon{
+    width: 100%;
+    object-fit: contain;
+}
+
+.bulb_text{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* stlying for retain */
+.retain{
+    background-image: var(--bgblack);
+}
+
+
+/* styling for partner */
+.partner{
+    background-image: var(--bgwhite);
+    color: var(--black);
+}
+
+.partner_heading{
+    text-transform: capitalize;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* .partner_text-box{
+    display: flex;
+} */
+
+.partner_logobox{
+    display: block;
+}
+
+.partner_infobox{
+    /* background-color: chocolate; */
+    width: 70%;
+    margin: 2rem auto 0;
+    /* padding: 3rem; */
+}
+
+.partner_info{
+    width: 40%;
+    /* background-color: wheat; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partner_iconbox{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+
+.partner_yellow{
+    background-color: var(--yellow);
+}
+
+.partner_pink{
+    background-color: var(--pink);
+}
+
+.partner_green{
+    background-color: var(--green);
+}
+
+.partner_black{
+    background-color: var(--black);
+}
+
+.partner_icon{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.partner_text{
+    width: 65%;
+}
+
+.partner_line{
+    border-radius: 10px;
+    height: 10px;
+    width: 27%;
+    margin: .4rem 0 .2rem;
+}
+
+.partner_right{
+    margin: 0 0 0 auto;
+}
